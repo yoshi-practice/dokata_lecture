@@ -36,7 +36,8 @@ AWSにはリージョンと呼ばれるAWSの拠点があって、EC2とVPCを�
 
 ## VPC
 ### 基本的な構成
-VPCには様々なコンポーネントが含まれていて、それらを組み合わせることで、自由にネットワーク環境を構築できる
+VPCには様々なコンポーネントが含まれていて、それらを組み合わせることで、自由にネットワーク環境を構築できる  
+<br>
 <img src="https://i1.wp.com/avinton.com/wp-content/uploads/2018/02/aws-components.png?resize=514%2C274&ssl=1">  
 
 - IGW(Internet GateWay)  

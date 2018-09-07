@@ -24,14 +24,14 @@ SlugはDynoと呼ばれる仮想のUnixコンテナにデプロイされ実行�
 ## デプロイ(運用)までの流れ
 流れとしては、heroku上のgitのディレクトリにpushされたものを検知して、それに対してwebpackがその内容をslugに変換してそれをdynoにのっけるイメージ  
 以下の図みたいな流れ  
-
+<br>
 <img src="heroku_structure.png" alt="図1" width=500px>
 
 ## Herokuの使い方
 herokuでなにかデプロイしたいときには、
 herokuのhpでユーザの登録を終わらせる
 
-1. アップロードしたいディレクトリをgit initする  
+1. アップロードしたいディレクトリを`git init`する  
 `brew install heroku`
 
 2. もしhtml,css,jsだけのアプリだったらディレクトリにindex.phpを追加してその中身を以下に書き換える。こうすることでindex.htmlがきちんと読み込まれるようになる  
